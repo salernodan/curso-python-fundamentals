@@ -14,13 +14,23 @@ matris = [
     [6,9,11]
 ]
 
+# a = 0
+# b = 0
+# cont = 0
+
+# for mtz in matris:
+#     a += mtz[cont]
+#     b += mtz[-(cont+1)]
+#     cont += 1
+
+# print (a + b)
+
 a = 0
 b = 0
-cont = 0
 
-for mtz in matris:
+for cont, mtz in enumerate(matris):
     a += mtz[cont]
     b += mtz[-(cont+1)]
-    cont += 1
 
 print (a + b)
+
