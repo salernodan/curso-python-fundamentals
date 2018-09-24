@@ -13,4 +13,14 @@ while x < 10:
 # while letras:
 #     print(letras.pop(0)) # Usando pop para tirar da lista
 # print(letras)
+
+
+# Usando While TRUE
+# while True:
+#     variavel = input("Digite 0 para sair: ")
+#     if variavel == '0':
+#         continue
+#     elif variavel == 'sair':
+#         break
+# print('teste continue')
     

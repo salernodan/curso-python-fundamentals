@@ -1,3 +1,7 @@
+# read() ler arquivo inteiro
+# readline ler linha do arquivo
+# readlines ler arquivo inteiro como lista
+
 # Append
 # with open("nomes.txt", "a") as arquivo:
 #     arquivo.write("Joao\n")
